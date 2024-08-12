@@ -12,4 +12,6 @@ public partial class Transaction
     public int Eid { get; set; }
 
     public float Total { get; set; }
+   
+    public DateTime Date { get; set; }
 }
