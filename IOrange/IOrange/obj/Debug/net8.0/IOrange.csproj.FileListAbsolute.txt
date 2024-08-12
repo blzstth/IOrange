@@ -103,3 +103,4 @@ C:\Users\Balazs\Documents\Projektek\C#\IOrange\IOrange\obj\Debug\net8.0\IOrange.
 C:\Users\Balazs\Documents\Projektek\C#\IOrange\IOrange\obj\Debug\net8.0\IOrange.csproj.Up2Date
 C:\Users\Balazs\Documents\Projektek\C#\IOrange\IOrange\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Balazs\Documents\Projektek\C#\IOrange\IOrange\obj\Debug\net8.0\scopedcss\projectbundle\IOrange.bundle.scp.css
+C:\Users\Balazs\Documents\Projektek\C#\IOrange\IOrange\obj\Debug\net8.0\IOrange.sourcelink.json
