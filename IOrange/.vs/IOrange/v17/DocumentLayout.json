@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\wwwroot\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\wwwroot\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.css",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\wwwroot\\css\\HomePage.css",
+              "RelativeDocumentMoniker": "IOrange\\wwwroot\\css\\HomePage.css",
+              "ToolTip": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\wwwroot\\css\\HomePage.css",
+              "RelativeToolTip": "IOrange\\wwwroot\\css\\HomePage.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-11T22:24:22.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Program.cs",
+              "RelativeDocumentMoniker": "IOrange\\Program.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Program.cs",
+              "RelativeToolTip": "IOrange\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:40:41.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "IOrange\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "IOrange\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-11T19:37:15.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "IOrange\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "IOrange\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T19:32:36.704Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+﻿@model IOrange.Data.IorangedatabaseContext 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="~/css/HomePage.css"></link>
+</head>
+<body>
+    
+    <table id="table1">
+        <tr>
+            <td id="itemsS">[items]</td>
+            <td id="deleteS">[delete last item]</td>
+            <td id="submitTd">[Submit button]</td>
+        </tr>
+    </table>
+    <table id="table2">
+        
+        <tr>
+            <th>@DateTime.Now</th>
+            <th>[User]</th>
+            
+        </tr>
+        <tr>
+                @foreach (var item in Model.Items)
+                {
+                    @if(item.Iid <= 10)
+                {
+                    <td>@item.Name @item.Price</td>
+                }
+               
+                }
+        </tr>
+        <tr>
+            @foreach (var item in Model.Items)
+            {
+                @if (item.Iid <= 19 && item.Iid >= 11)
+                {
+                    <td>@item.Name @item.Price</td>
+                }
+
+            }
+        </tr>
+        <tr>
+            @foreach (var item in Model.Items)
+            {
+                @if (item.Iid <= 27 && item.Iid >= 20)
+                {
+                    <td>@item.Name @item.Price</td>
+                }
+
+            }
+        </tr>
+    </table>
+</body>
+</html>

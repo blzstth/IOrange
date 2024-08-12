@@ -1,0 +1,30 @@
+use iorangedatabase;
+insert into iorangedatabase.items(IId, name, price, sold) value(1, "Bombay", 2199, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(2, "Kalumba White", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(3, "Kalumba Maracuja", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(4, "Beefeater Pink", 1999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(5, "Tanqueray", 1999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(6, "Malfy Rosa", 1999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(7, "Opera", 1999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(8, "Roku", 2199, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(9, "Hendricks", 2299, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(10, "Zsolnay", 2699, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(11, "Monkey 47", 4490, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(12, "Smirnoff", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(13, "Three Sixty", 1799, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(14, "Finlandia", 1799, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(15, "Tito's", 1899, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(16, "Opera", 1899, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(17, "Ciroc", 2099, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(18, "Ciroc Mango", 2099, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(19, "Grey Goose", 2299, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(20, "Beluga", 2299, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(21, "Johnnie Walker Black", 1899, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(22, "Jim Beam", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(23, "Jim Beam Ízesített", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(24, "Jameson", 2099, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(25, "Jack Daniel's", 2199, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(26, "Jack Daniel's Alma", 2199, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(27, "Maker's Mark", 1899, 0);

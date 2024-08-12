@@ -1,0 +1,114 @@
+use iorangedatabase;
+insert into iorangedatabase.items(IId, name, price, sold) value(28, "Captain Morgan White", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(29, "Captain Morgan Spiced", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(30, "Takamaka Dark Spiced", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(31, "Diplomatico Reserva", 2299, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(32, "Bumbu", 2299, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(33, "Egyszer volt Mézes Ágyas Meggy", 1799, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(34, "Egyszer volt Szilva", 1799, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(35, "Agárdi Miraculom Irsai Olivér", 2299, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(36, "Schiszler Barack", 1999, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(37, "Sierra Blanco", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(38, "Sierra Reposado", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(39, "Don Julio Blanco", 3999, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(40, "Unicum", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(41, "Unicum Szilva", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(42, "Unicum Barista", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(43, "Unicum Riserva", 1999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(44, "Jagermeister", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(45, "Aperol", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(46, "Baileys", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(47, "Takamaka Koko", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(48, "Tubi 60", 2290, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(49, "Tatratea 42, 52", 1999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(50, "Tatratea 62, 72", 2099, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(51, "Shanky's", 1699, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(52, "Heineken", 1599, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(53, "Budapest Sör Lager", 1599, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(54, "Budapest Sör Meggy", 1699, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(55, "Budapest Sör IPA", 1699, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(56, "Strongbow", 1599, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(57, "Gösser Beer Spritz Strawberry", 1599, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(58, "Budapest Lager", 1799, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(59, "Budapest IPA", 1899, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(60, "Budapest Meggy", 1899, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(61, "Heineken Silver", 1499, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(62, "Heineken 0%", 1399, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(63, "Gösser Natur Zitrone 0%", 1399, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(64, "Gösser Beer Spritz Eper", 1599, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(65, "Gösser Beer Spritz Botanic", 1599, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(66, "Lisicza Zöld Veltelini", 850, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(67, "Dukay & Kúcs Irsai Olivér", 950, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(68, "Laposa Friss", 950, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(69, "Lisicza Rosé", 850, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(70, "Dukay & Kúcs Rosé", 950, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(71, "Sauska Rosé", 990, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(72, "Vylyan Cabernet Sauvignon", 950, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(73, "Tanqueray 0%", 1750, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(74, "Captain Morgan Spiced Gold Zero Alcohol", 1750, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(75, "Törley Ice / Rosé", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(76, "Kreinbacher Extra Dry", 1699, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(77, "Millage Prosecco DOCG Extra Dry", 1699, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(78, "Toma Narancs", 350, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(79, "Toma Alma", 350, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(80, "Toma Feketeribizli 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(81, "Toma Őszibarack 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(82, "Toma Alma 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(83, "Toma Narancs 0,33", 999, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(84, "Pepsi", 350, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(85, "Coca-Cola", 350, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(86, "Schweppes Tonic", 350, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(87, "Szóda", 120, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(88, "PARK Limonádé", 1699, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(89, "Szirupmentes Limonádé", 1599, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(90, "Budapest Szörp ALamfröcss", 950, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(91, "Budapest Szörp Bazsalikomos Eper", 950, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(92, "Budapest Szörp Citromos Bodza", 950, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(93, "Budapest Szörp Uborkás Víz", 950, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(94, "Pepsi Cola 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(95, "Pepsi Cola Max 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(96, "Coca-Cola 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(97, "Coca-Cola Zero 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(98, "Coca-Cola Cherry", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(99, "Mirinda 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(100, "Schweppes Tonic / Pink Tonic 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(101, "7UP 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(102, "Canada Dry 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(103, "Mountain Dew 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(104, "Lipton Ice Tea Barack 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(105, "Lipton Ice Tea Zöld Citrom 0,33", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(106, "Fitch & Leedes Tonic 0,2", 999, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(107, "Stolichnaya Ginger Beer", 1499, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(108, "Szentkirályi szénsavas", 899, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(109, "Szentkirályi mentes", 899, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(110, "Jana szénsavmentes ásványvíz", 950, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(111, "Red Bull", 1499, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(112, "Red Bull Sugarfree", 1499, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(113, "Red Bull Coconut Edition", 1499, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(114, "Red Bull Green Edition", 1499, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(115, "Red Bull Red Edition", 1499, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(116, "Red Bull Summer Edition", 1499, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(117, "Ropi 45g", 499, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(118, "Lay's Chips 60g", 849, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(119, "Földimogyoró 50g", 599, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(120, "Rágó csomag", 499, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(121, "Pringles 70g", 999, 0);
+
+insert into iorangedatabase.items(IId, name, price, sold) value(122, "Repohár", 500, 0);
+insert into iorangedatabase.items(IId, name, price, sold) value(123, "Esőkabát", 499, 0);
