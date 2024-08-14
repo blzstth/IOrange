@@ -7,16 +7,32 @@
       "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\data\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\data\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\viewmodels\\itemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\viewmodels\\itemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\data\\iorangedatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\data\\iorangedatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|c:\\users\\balazs\\documents\\projektek\\c#\\iorange\\iorange\\data\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA69B168-36AF-45DE-8A1C-876109C82E8B}|IOrange\\IOrange.csproj|solutionrelative:iorange\\data\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +42,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IorangedatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Data\\IorangedatabaseContext.cs",
+              "RelativeDocumentMoniker": "IOrange\\Data\\IorangedatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Data\\IorangedatabaseContext.cs",
+              "RelativeToolTip": "IOrange\\Data\\IorangedatabaseContext.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T16:03:08.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\ViewModels\\ItemViewModel.cs",
+              "RelativeDocumentMoniker": "IOrange\\ViewModels\\ItemViewModel.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\ViewModels\\ItemViewModel.cs",
+              "RelativeToolTip": "IOrange\\ViewModels\\ItemViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T16:01:19.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Program.cs",
+              "RelativeDocumentMoniker": "IOrange\\Program.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Program.cs",
+              "RelativeToolTip": "IOrange\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T15:09:53.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "IOrange\\Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Services\\ItemService.cs",
+              "RelativeToolTip": "IOrange\\Services\\ItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T15:04:39.768Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +104,14 @@
               "RelativeDocumentMoniker": "IOrange\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "IOrange\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAMAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvyUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-12T19:59:09.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Data\\Item.cs",
               "RelativeDocumentMoniker": "IOrange\\Data\\Item.cs",
@@ -56,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Data\\Transaction.cs",
               "RelativeDocumentMoniker": "IOrange\\Data\\Transaction.cs",
@@ -64,8 +132,7 @@
               "RelativeToolTip": "IOrange\\Data\\Transaction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T19:51:34.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T19:51:34.173Z"
             },
             {
               "$type": "Document",
@@ -75,7 +142,7 @@
               "RelativeDocumentMoniker": "IOrange\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\Controllers\\HomeController.cs",
               "RelativeToolTip": "IOrange\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T19:32:36.704Z",
               "EditorCaption": ""

@@ -1,4 +1,5 @@
 using IOrange.Data;
+using IOrange.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace IOrange
@@ -13,7 +14,7 @@ namespace IOrange
             builder.Services.AddRazorPages();
             builder.Services.AddDbContext<IorangedatabaseContext>(options =>
             options.UseMySql("Server=localhost;Database=iorangedatabase;Uid=root;Pwd=root", new MySqlServerVersion(new Version(8, 0))));
-
+            builder.Services.AddScoped<ItemService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

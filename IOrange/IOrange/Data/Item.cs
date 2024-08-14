@@ -14,6 +14,6 @@ public partial class Item
     public int Sold { get; set; }
     public float Amount { get; set; }
 
-    public List<Item> Items { get; set; }
+   
 
 }
