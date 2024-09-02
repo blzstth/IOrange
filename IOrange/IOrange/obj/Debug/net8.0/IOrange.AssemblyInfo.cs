@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IOrange")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0636a8225c5c45c074d06f41f35e517ae758f230")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+172c99cada177244eef85f5ad0ad2a9e7efd30c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("IOrange")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IOrange")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
