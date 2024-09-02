@@ -7,20 +7,28 @@
     <link rel="stylesheet" href="~/css/HomePage.css"></link>
 </head>
 <body>
-    
+
     <table id="table1">
-        <tr>
-            <td id="itemsS">[items]</td>
-            <td id="deleteS">[delete last item]</td>
-            <td id="submitTd">[Submit button]</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Items</th>
+            </tr>
+        </thead>
+        <tbody id="itemsS">
+            <!-- Ide kerülnek a kiválasztott elemek -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="deleteS">[delete last item]</td>
+                <td id="submitTd">[Submit button]</td>
+            </tr>
+        </tfoot>
     </table>
+
     <table id="table2">
-        
         <tr>
-            <th>@DateTime.Now</th>
+            <th id="currentTime"></th>
             <th>[User]</th>
-            
         </tr>
         @{
             int rows = 0;
@@ -30,16 +38,101 @@
             if (rows % 12 == 0)
             {
                 <tr>
-                    <td>@item.Name @item.Price Ft</td>
+                    <td><button class="termekek" data-name="@item.Name" data-price="@item.Price">@item.Name @item.Price Ft</button></td>
                 </tr>
             }
             else
             {
-                <td>@item.Name @item.Price Ft</td>
+                <td><button class="termekek" data-name="@item.Name" data-price="@item.Price">@item.Name @item.Price Ft</button></td>
             }
             rows++;
         }
-        
     </table>
+
+    <script>
+        // Az elemeket tároló tömb
+        let selectedItems = [];
+
+        // Az összes "termekek" gomb kijelölése
+        document.querySelectorAll('.termekek').forEach(button => {
+            button.addEventListener('click', function () {
+                // Az elem neve és ára a gomb adat attribútumaiból
+                const itemName = this.getAttribute('data-name');
+                const itemPrice = this.getAttribute('data-price');
+
+                // Új elem hozzáadása a tömbhöz
+                selectedItems.push({ name: itemName, price: itemPrice });
+
+                // Table1 frissítése
+                appendToTable1(itemName, itemPrice);
+            });
+        });
+
+        // Új elem hozzáadása a table1-hez minden egyes alkalommal egy új sorban
+        function appendToTable1(itemName, itemPrice) {
+            const itemsTableBody = document.getElementById('itemsS');
+
+            // Új sor (tr) létrehozása
+            const itemRow = document.createElement('tr');
+            const itemCell = document.createElement('td');
+
+            // Cellába az elem neve és ára
+            itemCell.textContent = `${itemName} - ${itemPrice} Ft`;
+
+            // Hozzáadjuk a cellát a sorhoz, majd a sort a táblázat törzséhez (tbody)
+            itemRow.appendChild(itemCell);
+            itemsTableBody.appendChild(itemRow);
+        }
+
+        // Ha szükséges, egy "Delete last item" gomb hozzáadása
+        document.getElementById('deleteS').addEventListener('click', function () {
+            // Az utolsó elem törlése a tömbből
+            selectedItems.pop();
+
+            // Table1 frissítése, megjelenítjük az összes elemet a tömbből
+            refreshTable1();
+        });
+
+        // Table1 frissítése az aktuális tömb alapján (törlés esetén hasznos)
+        function refreshTable1() {
+            const itemsTableBody = document.getElementById('itemsS');
+
+            // A cella tartalmának kiürítése
+            itemsTableBody.innerHTML = '';
+
+            // Új sorok hozzáadása a tömb alapján
+            selectedItems.forEach(item => {
+                const itemRow = document.createElement('tr');
+                const itemCell = document.createElement('td');
+                itemCell.textContent = `${item.name} - ${item.price} Ft`;
+                itemRow.appendChild(itemCell);
+                itemsTableBody.appendChild(itemRow);
+            });
+        }
+
+        // Idő és dátum frissítése minden másodpercben
+        function updateTime() {
+            const timeCell = document.getElementById('currentTime');
+            const now = new Date();
+
+            // Formázott dátum (év, hónap, nap)
+            const date = now.toLocaleDateString();
+            // Formázott idő (óra, perc, másodperc)
+            const time = now.toLocaleTimeString();
+
+            // Dátum és idő megjelenítése
+            timeCell.textContent = `${date} ${time}`;
+        }
+
+        // Idő frissítése minden 1 másodpercben
+        setInterval(updateTime, 1000);
+
+        // Submit gomb esetén további logika (pl. űrlap beküldése) ide jöhet
+        document.getElementById('submitTd').addEventListener('click', function () {
+            // Itt lehet elvégezni a submit eseményhez szükséges kódot
+            alert('Submit clicked with ' + selectedItems.length + ' items selected!');
+        });
+    </script>
+
 </body>
 </html>

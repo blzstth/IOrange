@@ -77,3 +77,18 @@ button {
         height: auto; /* Mobilon ne legyen fix magasság */
     }
 }
+.termekek {
+    background: none;
+    border: none;
+    color: inherit; /* Az alap szöveg színét használja */
+    padding: 0;
+    font: inherit; /* Ugyanazt a betűtípust használja, mint a környező szöveg */
+    cursor: pointer; /* Kéz ikon a kattinthatóság jelzésére */
+}
+.termekek:hover {
+    text-decoration: none; /* Semmi extra, hogy ne hasonlítson linkre */
+}
+
+.termekek:focus {
+    outline: none; /* Nincs fókuszjelzés, hogy ne tűnjön gombnak */
+}
