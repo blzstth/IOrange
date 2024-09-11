@@ -1,52 +1,52 @@
-﻿/* Alap stílusok */
+﻿
 body {
     font-family: Arial, sans-serif;
-    background-color: #2c2c2c; /* Sötét háttér a szemkímélő hatásért */
-    color: #e0e0e0; /* Világos szöveg a sötét háttéren */
+    background-color: #2c2c2c; 
+    color: #e0e0e0; 
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: stretch; /* A táblázatok teljes magasságot elfoglalják */
-    height: 100vh; /* Az oldal teljes magassága */
+    align-items: stretch; 
+    height: 100vh; 
 }
 
 table {
-    background-color: #3b3b3b; /* Sötétebb háttér a táblákhoz */
-    border-collapse: collapse; /* Nincs távolság a cellák között */
-    margin: 0 10px; /* Kis távolság a két tábla között */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Erősebb árnyék a táblák alatt */
-    height: 100%; /* A tábla teljes magasságot elfoglalja */
+    background-color: #3b3b3b; 
+    border-collapse: collapse; 
+    margin: 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    height: 100%;
 }
 
 th, td {
     padding: 10px 15px;
-    border: 1px solid #555555; /* Sötét szegély a cellák körül */
+    border: 1px solid #555555; 
     text-align: left;
-    color: #e0e0e0; /* Világos szöveg a cellákban */
-    vertical-align: top; /* A szöveg a cellák tetejéhez igazítva */
+    color: #e0e0e0; 
+    vertical-align: top; 
 }
 
 th {
-    background-color: #4c4c4c; /* Közepesen sötét szürke háttér a fejlécnek */
+    background-color: #4c4c4c; 
     font-weight: bold;
 }
 
 #table1 {
-    width: 20%; /* Bal oldali tábla szélessége a képernyő 20%-a */
+    width: 20%; 
 }
 
 #table2 {
-    width: 80%; /* Jobb oldali tábla szélessége a képernyő 80%-a */
+    width: 80%; 
 }
 
-/* A táblák elrendezése egymás mellett */
+
 body > table {
     display: inline-block;
-    vertical-align: top; /* Tetejüknél igazítva */
+    vertical-align: top;
 }
 
-/* Submit gomb, Delete és Items stílusa */
+
 #submitTd, #itemsS, #deleteS {
     text-align: center;
 }
@@ -61,10 +61,10 @@ button {
 }
 
     button:hover {
-        background-color: #0056b3; /* Sötétebb kék, ha rámutatsz */
+        background-color: #0056b3; 
     }
 
-/* Mobil eszközökhöz igazítás */
+
 @media (max-width: 768px) {
     body {
         flex-direction: column;
@@ -74,21 +74,21 @@ button {
     #table1, #table2 {
         width: 100%;
         margin: 10px 0;
-        height: auto; /* Mobilon ne legyen fix magasság */
+        height: auto; 
     }
 }
 .termekek {
     background: none;
     border: none;
-    color: inherit; /* Az alap szöveg színét használja */
+    color: inherit; 
     padding: 0;
-    font: inherit; /* Ugyanazt a betűtípust használja, mint a környező szöveg */
-    cursor: pointer; /* Kéz ikon a kattinthatóság jelzésére */
+    font: inherit; 
+    cursor: pointer; 
 }
 .termekek:hover {
-    text-decoration: none; /* Semmi extra, hogy ne hasonlítson linkre */
+    text-decoration: none; 
 }
 
 .termekek:focus {
-    outline: none; /* Nincs fókuszjelzés, hogy ne tűnjön gombnak */
+    outline: none; 
 }

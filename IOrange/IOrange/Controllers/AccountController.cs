@@ -19,11 +19,11 @@ namespace IOrange.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Ellenőrizzük az ID és Username alapú felhasználói adatokat az adatbázisban
+                
                 if (ValidateUser(model.Id, model.Name))
                 {
                     HttpContext.Session.SetString("Username", model.Name);
-                    // Sikeres login, átirányítás az oldalra
+                   
                     return RedirectToAction("Index", "Home");
                 }
                 else
@@ -35,7 +35,7 @@ namespace IOrange.Controllers
             return View(model);
         }
 
-        // Felhasználói hitelesítés ID és Username alapján
+        
         private bool ValidateUser(int userId, string username)
         {
             bool isValid = false;
@@ -44,16 +44,16 @@ namespace IOrange.Controllers
             {
                 connection.Open();
 
-                // Felhasználó lekérdezése ID és Username alapján
+                
                 string query = "SELECT COUNT(*) FROM Employee WHERE EId = @Id AND Name = @Name";
                 using (var cmd = new MySqlCommand(query, connection))
                 {
-                    cmd.Parameters.AddWithValue("@Id", userId);  // @Id helyesen
+                    cmd.Parameters.AddWithValue("@Id", userId);
                     cmd.Parameters.AddWithValue("@Name", username);
 
                     var result = Convert.ToInt32(cmd.ExecuteScalar());
 
-                    // Ha a lekérdezés 1-et ad vissza, akkor van ilyen felhasználó
+                    
                     isValid = result > 0;
                 }
             }
