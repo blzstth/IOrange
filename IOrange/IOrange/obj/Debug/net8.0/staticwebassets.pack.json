@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\HomePage.css"
     },
     {
+      "Id": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
       "Id": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

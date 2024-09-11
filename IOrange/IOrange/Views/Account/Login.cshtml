@@ -1,41 +1,46 @@
 ﻿@model IOrange.ViewModels.LoginViewModel
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="~/css/login.css" />
 </head>
 <body>
-    <h2>Login</h2>
-    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
-    {
-        @Html.AntiForgeryToken()
-
-        <div>
-            @Html.LabelFor(m => m.Id)
-            @Html.TextBoxFor(m => m.Id)
-            @Html.ValidationMessageFor(m => m.Id)
-        </div>
-
-        <div>
-            @Html.LabelFor(m => m.Name)
-            @Html.TextBoxFor(m => m.Name)
-            @Html.ValidationMessageFor(m => m.Name)
-        </div>
-
-        <div>
-            <button type="submit">Login</button>
-        </div>
-
-        @if (ViewData.ModelState.IsValid == false)
+    <div class="login-container">
+        <h2>Login</h2>
+        @using (Html.BeginForm("Login", "Account", FormMethod.Post))
         {
-            <div style="color:red;">
-                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-                {
-                    <p>@error.ErrorMessage</p>
-                }
+            @Html.AntiForgeryToken()
+
+            <div class="input-group">
+                @Html.LabelFor(m => m.Id, new { @class = "input-label" })
+                @Html.TextBoxFor(m => m.Id, new { @class = "input-box" })
+                @Html.ValidationMessageFor(m => m.Id, "", new { @class = "validation-message" })
             </div>
+
+            <div class="input-group">
+                @Html.LabelFor(m => m.Name, new { @class = "input-label" })
+                @Html.TextBoxFor(m => m.Name, new { @class = "input-box" })
+                @Html.ValidationMessageFor(m => m.Name, "", new { @class = "validation-message" })
+            </div>
+
+            <div class="button-group">
+                <button type="submit" class="login-button">Login</button>
+            </div>
+
+            @if (ViewData.ModelState.IsValid == false)
+            {
+                <div class="error-messages">
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <p>@error.ErrorMessage</p>
+                    }
+                </div>
+            }
         }
-    }
+    </div>
 </body>
 </html>

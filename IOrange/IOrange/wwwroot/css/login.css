@@ -1,0 +1,94 @@
+﻿/* Alapértelmezett stílusok */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login konténer */
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Cím */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input mezők stílusa */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+    .input-box:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+/* Validation messages */
+.validation-message {
+    color: red;
+    font-size: 12px;
+}
+
+/* Login gomb */
+.button-group {
+    text-align: center;
+}
+
+.login-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .login-button:hover {
+        background-color: #0056b3;
+    }
+
+/* Hibák megjelenítése */
+.error-messages {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Reszponzív stílusok */
+@media (max-width: 500px) {
+    .login-container {
+        padding: 15px;
+    }
+}

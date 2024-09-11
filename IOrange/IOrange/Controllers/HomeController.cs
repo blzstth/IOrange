@@ -16,6 +16,8 @@ namespace IOrange.Controllers
         }
         public IActionResult Index()
         {
+            var username = HttpContext.Session.GetString("Username");
+            ViewBag.Username = username;
             var items = _itemService.GetItems().Select(p => new ItemViewModel
             {
                 Iid = p.Iid,

@@ -15,13 +15,19 @@ namespace IOrange
             builder.Services.AddDbContext<IorangedatabaseContext>(options =>
             options.UseMySql("Server=localhost;Database=iorangedatabase;Uid=root;Pwd=root", new MySqlServerVersion(new Version(8, 0))));
             builder.Services.AddScoped<ItemService>();
+            builder.Services.AddSession();
+            builder.Services.AddControllersWithViews();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Error");
+                app.UseHsts();
             }
+            app.UseHttpsRedirection();
+            
+            app.UseSession();
             app.UseStaticFiles();
 
             app.UseRouting();

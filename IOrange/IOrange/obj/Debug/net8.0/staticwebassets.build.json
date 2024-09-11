@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "18egurhpBm2ETFGwNI44YHquNfcLCC0ugrHNF8+Z66M=",
+  "Hash": "NBoSyGpWcG6CmUANKZkrdrb6RaBiPls1XmUqaMtA8Yc=",
   "Source": "IOrange",
   "BasePath": "_content/IOrange",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\HomePage.css"
+    },
+    {
+      "Identity": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\wwwroot\\css\\login.css",
+      "SourceId": "IOrange",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\wwwroot\\",
+      "BasePath": "_content/IOrange",
+      "RelativePath": "css/login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
       "Identity": "C:\\Users\\Balazs\\Documents\\Projektek\\C#\\IOrange\\IOrange\\wwwroot\\css\\site.css",
